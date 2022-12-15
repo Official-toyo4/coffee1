@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&family=Roboto:ital,wght@0,300;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100&family=Roboto:ital,wght@0,300;1,300&display=swap');
+/* https://example.com/material-icons.woff */
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: sans-serif;
+        /* border: 1px red solid; */
+}
+::selection{
+        color: black;
+        background: none;
+}
+header{
+    position: relative;
+}
+nav{
+        position: fixed;
+        background: black;
+        width: 100%;
+        height: 5%;
+        padding: 0 10px;
+        z-index: 99;
+        
+}
+/* .ca .material-icons {
+    font-size: 40px;
+    color: red;
+} */
+ul{
+        width: 100%;
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+}
+.fa{
+    color: white;
+    font-size: 40px;
+}
+ul li{
+        list-style: none;
+       margin-left: 7px;
+}
+ul li:first-child{
+        margin-left: 0px;
+}
+ul li a{
+        text-decoration: wavy;
+        color: white;
+        font-size: 20px;
+        font-weight: 600;
+        padding: 15px 15px;
+        border-radius: 10px;
+}
+ul li a:hover{
+        background: grey;
+        color: black;
+        
+}
+.hero{
+    background-image: url(coffeehouse.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title h1{
+        font-size: 40px;
+        color: white;
+        font-family: Railway;
+}
+.about-section{
+   display: flex;
+    justify-content: center; 
+    position: relative;
+}
+.about{
+   padding: 20px;
+   
+}
+.about h2{
+     background-color: black;
+        width: fit-content;
+        color: white;
+        font-family: Chivo Mono ;
+        margin: 0 auto;
+}
+.about p{
+    margin: 0 auto;
+    font-size: 20px;
+}
+.owen h2{
+    background-color: rgb(224, 223, 223);
+    color: black;
+     font-size: 20px;
+     font-style: italic;
+}
+.open{
+    margin: 0 auto;
+}
+.open img{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.open h2{
+    font-size: 19px;
+    padding-left: 20px;
+    
+}
+.menu{
+    padding: 20px;
+}
+.menu h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+.eat{
+    text-align: center;
+    background-color: rgb(224, 223, 223);
+    width: fit-content;
+    margin: 0 auto;
+}
+.food{
+    margin: 0 auto;
+    padding: 20px;
+}
+.food h3{
+    width: fit-content;
+    background-color:rgb(224, 223, 223) ;
+    font-size: 20px;
+}
+.pic img{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.find{
+    padding: 20px;
+}
+.find h2{
+    text-align: center;
+    background-color: black;
+    color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+.find h3{
+    margin: 0 auto;
+}   
+.map img{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.map h2{
+    text-align: center;
+    font-size: 20px;
+    margin: 0 auto;
+}
+footer{
+    background-color: rgb(179, 178, 178);
+    text-align: center;
+    font-size: 30px;
+
+}
+@media only screen and (min-width: 768px){
+    ul{
+        display: inline-flex;
+    }
+    .title h1{
+        font-size: 70px;
+    }
+
+    .about h2{
+        font-family: Chivo Mono;
+    }
+    .about p{
+        font-size: 25px;
+    }
+    .owen h2{
+        font-size: 25px;
+    }
+    .open img{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .open h2{
+        font-size: 30px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .eat h2{
+        font-size: 25px;
+    }
+    .food h3{
+        margin: 0 auto;
+        padding: 20px;
+        font-size: 30px;
+    }
+    .pic img{
+        width: 50%;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+    .find h3{
+        font-size: 30px;
+        text-align: center;
+    }
+    .map h2{
+        padding: 10px;
+        font-size: 22px;
+        margin: 0 auto;
+    }
+}
